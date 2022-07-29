@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/*Criando configurações gerais para resetar margin e padding de todos os elementos*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;/*vh (view height) vw (view width)*/
+    background-color: darkgray;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    /*text-transform: uppercase;transformar todo o texto em letra maiúscula*/
+    font-variant: small-caps;/*as letras ficam maiúsculas porém as primeiras letras ficam maiores*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+/*Conteúdo*/
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: #3f3f3f;
+    color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+
+/*Rodapé*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
