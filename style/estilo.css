@@ -33,7 +33,7 @@ header > h1 {
     /*text-transform: uppercase;transformar todo o texto em letra maiúscula*/
     font-variant: small-caps;/*as letras ficam maiúsculas porém as primeiras letras ficam maiores*/
     font-family: var(--font2);
-    font-size: 10vw;/*Não é a melhor maneira para adaptar o tamanho de uma letra porém é funcional*/
+    font-size: 5em;/*Não é a melhor maneira para adaptar o tamanho de uma letra porém é funcional*/
 }
 
 header > p {
@@ -52,12 +52,14 @@ header a:hover, footer a:hover {
 
 /*Conteúdo*/
 section {
+    max-width: 800px;
+    margin: auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 3.5vw;
+    font-size: 1.3em;
 }
 
 section > p {
